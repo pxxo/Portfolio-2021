@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/admin.css">
+  <title>Admin Login</title>
+</head>
+
+<body>
+  <div class="background">
+    <h1 class="title">admin</h1>
+    <form action="method.php" method="POST" name="loginform">
+      <input type="text" name="username" placeholder="Username" id="user" class="input"><br>
+      <input type="password" name="password" placeholder="Password" id="pass" class="input">
+    </form>
+    <button onclick="login()" class="login_button">LOGIN</button><br>
+    <a href="../index.php" class="backhome">backhome</a>
+  </div>
+  <script src="../script/script_admin.js"></script>
+</body>
+
+</html>
