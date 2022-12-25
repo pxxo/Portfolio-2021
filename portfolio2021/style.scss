@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700);
+
 html {
     margin: 0;
     padding: 0;
@@ -79,9 +80,11 @@ li {
     0% {
         margin: 0;
     }
+
     50% {
         margin: 15px 50px 5px 25px;
     }
+
     100% {
         margin: 0;
     }
@@ -97,6 +100,7 @@ li {
     z-index: 99;
     transform: translateX(-100%);
     position: fixed;
+
     .closeButton {
         transition: 2s;
         font-weight: 900;
@@ -107,11 +111,14 @@ li {
         margin: -6px 14px 0 0;
         cursor: crosshair;
     }
+
     .closeButton:hover {
         transform: rotate(-360deg);
     }
+
     .margin-top-1 {
         margin: 50px 10px 20px 10px;
+
         .tocLink {
             font-family: lmb;
             font-size: 30px;
@@ -120,8 +127,10 @@ li {
             margin: 100px 0 10px 30px;
         }
     }
+
     .margin-top {
         margin: 20px 10px;
+
         .tocLink {
             font-family: lmb;
             font-size: 30px;
@@ -327,6 +336,7 @@ header {
     0% {
         transform: rotateZ(0deg);
     }
+
     100% {
         transform: rotateZ(360deg);
     }
@@ -424,6 +434,7 @@ header {
 }
 
 .inline-block-parent {
+    cursor: grab;
     transition: .5s linear;
     z-index: 20;
     text-align: center;
@@ -707,15 +718,19 @@ footer .last-title a:hover {
     20% {
         opacity: 0.35
     }
+
     40% {
         opacity: 1
     }
+
     60% {
         opacity: 0.35
     }
+
     80% {
         opacity: 1
     }
+
     100% {
         opacity: 0.35
     }
@@ -725,15 +740,19 @@ footer .last-title a:hover {
     20% {
         opacity: 0.35
     }
+
     40% {
         opacity: 1
     }
+
     60% {
         opacity: 0.35
     }
+
     80% {
         opacity: 1
     }
+
     100% {
         opacity: 0.35
     }
@@ -744,10 +763,12 @@ footer .last-title a:hover {
         transform: translateY(0px);
         transform: translateY(0px)
     }
+
     50% {
         transform: translateY(-15px);
         transform: translateY(-15px)
     }
+
     100% {
         transform: translateY(0px);
         transform: translateY(0px)
@@ -759,10 +780,12 @@ footer .last-title a:hover {
         transform: translateY(0px);
         transform: translateY(0px)
     }
+
     50% {
         transform: translateY(-15px);
         transform: translateY(-15px)
     }
+
     100% {
         transform: translateY(0px);
         transform: translateY(0px)
@@ -773,6 +796,7 @@ footer .last-title a:hover {
     0% {
         background-position: 0% 50%
     }
+
     100% {
         background-position: 100% 50%
     }

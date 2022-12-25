@@ -1,4 +1,4 @@
-document.getElementById("humburgerIco").onclick = function() {
+document.getElementById("humburgerIco").onclick = function () {
     document.getElementById("barFirst").classList.toggle("moveBar01");
     document.getElementById("barSecond").classList.toggle("moveBar02");
     document.getElementById("barTherd").classList.toggle("moveBar03");
@@ -6,7 +6,7 @@ document.getElementById("humburgerIco").onclick = function() {
     document.getElementById("menu").classList.toggle("menuToggle");
     document.getElementById("all").classList.toggle("displayFilter");
 }
-document.getElementById("closeMenu").onclick = function() {
+document.getElementById("closeMenu").onclick = function () {
     document.getElementById("barFirst").classList.remove("moveBar01");
     document.getElementById("barSecond").classList.remove("moveBar02");
     document.getElementById("barTherd").classList.remove("moveBar03");
@@ -14,7 +14,7 @@ document.getElementById("closeMenu").onclick = function() {
     document.getElementById("menu").classList.toggle("menuToggle");
     document.getElementById("all").classList.remove("displayFilter");
 }
-document.getElementById("allDisplay").onclick = function() {
+document.getElementById("allDisplay").onclick = function () {
     document.getElementById("barFirst").classList.remove("moveBar01");
     document.getElementById("barSecond").classList.remove("moveBar02");
     document.getElementById("barTherd").classList.remove("moveBar03");
@@ -23,9 +23,9 @@ document.getElementById("allDisplay").onclick = function() {
     document.getElementById("all").classList.remove("displayFilter");
 }
 
-document.getElementById("rotateCard").onclick = function() {
+document.getElementById("rotateCard").onclick = function () {
     document.getElementById("rotateCard").classList.toggle("rotateCard");
-    var changeContent = function() {
+    var changeContent = function () {
         document.getElementById("content01").classList.toggle("displayNone");
         document.getElementById("content02").classList.toggle("displayInline");
     }
@@ -53,27 +53,27 @@ var displayContent = () => {
         document.getElementById("demo-1").style.display = "none";
         // set
         var typeK = () => {
-            document.getElementById("typingZone").innerHTML = "k";
+            document.getElementById("typingZone").innerHTML = "P";
             document.getElementById("typingZone").style.textDecoration = "underline";
         }
         var typeKo = () => {
-            document.getElementById("typingZone").innerHTML = "ko";
+            document.getElementById("typingZone").innerHTML = "Pi";
         }
         var typeKos = () => {
-            document.getElementById("typingZone").innerHTML = "kos";
+            document.getElementById("typingZone").innerHTML = "Pin";
         }
         var typeKose = () => {
-            document.getElementById("typingZone").innerHTML = "kose";
+            document.getElementById("typingZone").innerHTML = "Pino";
         }
         var typeKosei = () => {
-            document.getElementById("typingZone").innerHTML = "kosei";
+            document.getElementById("typingZone").innerHTML = "Pino.";
         }
         var pressEnter = () => {
-                document.getElementById("typingZone").innerHTML = "Kosei";
-                document.getElementById("typingZone").style.textDecoration = "none";
-                // document.getElementById("flicker").style.display = "none";
-            }
-            //run
+            document.getElementById("typingZone").innerHTML = "Pino.";
+            document.getElementById("typingZone").style.textDecoration = "none";
+            // document.getElementById("flicker").style.display = "none";
+        }
+        //run
         setTimeout(typeK, 100);
         setTimeout(typeKo, 200);
         setTimeout(typeKos, 300);
@@ -143,8 +143,8 @@ function getWidth() {
 }
 setInterval(getWidth, 100);
 
-$(function() {
-    $('a[href^="#"]').click(function() {
+$(function () {
+    $('a[href^="#"]').click(function () {
         var speed = 500;
         var href = $(this).attr("href");
         var target = $(href == "#" || href == "" ? 'html' : href);
@@ -221,50 +221,50 @@ function backgroundColor() {
 }
 setInterval(backgroundColor, 1);
 
-link01.addEventListener("click", function() {
+link01.addEventListener("click", function () {
     link01.classList.add('headerAnimation');
     if (link01.classList.contains('headerAnimation')) {
-        setTimeout(function() {
+        setTimeout(function () {
             link01.classList.remove('headerAnimation');
         }, 1000)
     }
 });
-link02.addEventListener("click", function() {
+link02.addEventListener("click", function () {
     link02.classList.add('headerAnimation');
     if (link02.classList.contains('headerAnimation')) {
-        setTimeout(function() {
+        setTimeout(function () {
             link02.classList.remove('headerAnimation');
         }, 1000)
     }
 });
-link03.addEventListener("click", function() {
+link03.addEventListener("click", function () {
     link03.classList.add('headerAnimation');
     if (link03.classList.contains('headerAnimation')) {
-        setTimeout(function() {
+        setTimeout(function () {
             link03.classList.remove('headerAnimation');
         }, 1000)
     }
 });
-link04.addEventListener("click", function() {
+link04.addEventListener("click", function () {
     link04.classList.add('headerAnimation');
     if (link04.classList.contains('headerAnimation')) {
-        setTimeout(function() {
+        setTimeout(function () {
             link04.classList.remove('headerAnimation');
         }, 1000)
     }
 });
-link05.addEventListener("click", function() {
+link05.addEventListener("click", function () {
     link05.classList.add('headerAnimation');
     if (link05.classList.contains('headerAnimation')) {
-        setTimeout(function() {
+        setTimeout(function () {
             link05.classList.remove('headerAnimation');
         }, 1000)
     }
 });
-link06.addEventListener("click", function() {
+link06.addEventListener("click", function () {
     link06.classList.add('headerAnimation');
     if (link06.classList.contains('headerAnimation')) {
-        setTimeout(function() {
+        setTimeout(function () {
             link06.classList.remove('headerAnimation');
         }, 1000)
     }
