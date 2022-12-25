@@ -186,12 +186,12 @@ if ($count == 4) {
                     <h1 class="work-title">OPUS</h1>
                     <div class="website-table">
                         <div class="website-top">
-                            <a href="404/404.html">
-                                <p class="website" data-aos="zoom-out"><img src="img/samneil.jpg" alt=""></p>
+                            <a href="http://pxxo.php.xdomain.jp/Genshin-resin-caculator/caculator_ja.php">
+                                <p class="website" data-aos="zoom-out"><img src="img/samneil01.jpg" alt=""></p>
                             </a>
                             <br class="disabled">
-                            <a href="404/404.html">
-                                <p class="website" data-aos="zoom-out"><img src="img/samneil.jpg" alt=""></p>
+                            <a href="https://pxxo.github.io/EFT-ToDo/">
+                                <p class="website" data-aos="zoom-out"><img src="img/samneil02.jpg" alt=""></p>
                             </a>
                             <br class="disabled">
                             <a href="404/404.html">
