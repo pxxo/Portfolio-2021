@@ -67,7 +67,7 @@ if ($count == 4) {
     <link rel="stylesheet" href="css/loading.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="img/K.ico">
-    <title>Kosei's Portfolio site</title>
+    <title>Pino's Portfolio site</title>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
