@@ -293,7 +293,8 @@ if ($count == 4) {
                         <div class="line02"></div>
                         <ul>
                             <li><a href="admin/admin.html">> ADMIN LOGIN</a></li>
-                            <li><a href="https://genshincaculator.herokuapp.com/caculator_ja.php">> Genshin Calc</a>
+                            <li><a href="http://pxxo.php.xdomain.jp/Genshin-resin-caculator/index.php">> Genshin
+                                    Calc</a>
                             </li>
                             <li><a href="https://pxxo.github.io/EFT-ToDo/">> EFT ToDo</a></li>
                             <!-- <li><a href="admin/admin.html">> ADMIN LOGIN</a></li> -->
