@@ -280,9 +280,9 @@ if ($count == 4) {
                         <div class="line02"></div>
                         <ul>
                             <li><a href="https://twitter.com/Pxxo_fps" target="_blank" rel="noopener noreferrer">>
-                                    Twitter</a></li>
-                            <!-- <li><a href="404/404.html">> INSTAGRAM</a></li> -->
-                            <li><a href="404/404.html">> YOUTUBE</a></li>
+                                    TWITTER</a></li>
+                            <li><a href="https://www.youtube.com/channel/UChi93Tt3y1sPtAEAWt2VQKg">> YOUTUBE</a></li>
+                            <li><a href="https://www.twitch.tv/pino_abc">> TWITCH</a></li>
                         </ul>
                     </div>
 
@@ -293,9 +293,9 @@ if ($count == 4) {
                         <div class="line02"></div>
                         <ul>
                             <li><a href="admin/admin.html">> ADMIN LOGIN</a></li>
-                            <li><a href="https://genshincaculator.herokuapp.com/caculator_ja.php">> GRC</a></li>
-                            <li><a href="admin/admin.html">> GMA</a></li>
-                            <li><a href="https://pxxo.github.io/EFT-ToDo/">> EFT-ToDo</a></li>
+                            <li><a href="https://genshincaculator.herokuapp.com/caculator_ja.php">> Genshin Calc</a>
+                            </li>
+                            <li><a href="https://pxxo.github.io/EFT-ToDo/">> EFT ToDo</a></li>
                             <!-- <li><a href="admin/admin.html">> ADMIN LOGIN</a></li> -->
                             <!-- <li><a href="admin/admin.html">> ADMIN LOGIN</a></li> -->
                         </ul>
