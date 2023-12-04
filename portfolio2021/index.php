@@ -67,7 +67,7 @@ if ($count == 4) {
     <link rel="stylesheet" href="css/loading.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="img/K.ico">
-    <title>Pino's Portfolio site</title>
+    <title>Kosei's Portfolio site</title>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
@@ -232,7 +232,7 @@ if ($count == 4) {
                             </dt>
                             <br class="brDisplay">
                             <dd class="inline-block">
-                                <h3>名前：Pino</h3>
+                                <h3>名前：Kosei</h3>
                                 <h3>所属：無し</h3>
                                 <h3>範囲：Design/Coding</h3>
                             </dd>
@@ -303,7 +303,7 @@ if ($count == 4) {
                     </div>
                 </div>
 
-                <h3 class="last-title"><a href="#aboutme">Created by Pino.</a></h3>
+                <h3 class="last-title"><a href="#aboutme">Created by Kosei.</a></h3>
             </footer>
         </div>
     </div>
